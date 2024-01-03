@@ -149,7 +149,8 @@ public class TelaPontosDeColeta extends JFrame {
 
 				DefaultTableModel tableModel = new DefaultTableModel();				
 				JScrollPane scrollPane = new JScrollPane();
-				scrollPane.setBounds(197, 573, 709, 251);
+				scrollPane.setBounds(25, 460, 700, 200);
+				scrollPane.doLayout();
 
 				contentPane.add(scrollPane);
 
