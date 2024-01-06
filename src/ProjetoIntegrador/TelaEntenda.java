@@ -92,7 +92,7 @@ public class TelaEntenda extends JFrame {
 				dispose();				
 			}
 		});
-		btnVoltar.setBounds(1240, 536, 102, 57);
+		btnVoltar.setBounds(1240, 572, 102, 57);
 		contentPane.add(btnVoltar);		
 		
 		JLabel lblNewLabel = new JLabel("");

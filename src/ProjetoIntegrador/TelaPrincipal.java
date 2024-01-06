@@ -186,7 +186,13 @@ public class TelaPrincipal extends JFrame {
 		btnSejaUmVoluntario.setBorder(null);
 		btnSejaUmVoluntario.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				TelaSejaUmVoluntario novaTelaSejaUmVoluntario = new TelaSejaUmVoluntario();	
+				TelaSejaUmVoluntario novaTelaSejaUmVoluntario = null;
+				try {
+					novaTelaSejaUmVoluntario = new TelaSejaUmVoluntario();
+				} catch (ParseException e1) {
+					// TODO Bloco catch gerado automaticamente
+					e1.printStackTrace();
+				}	
 				novaTelaSejaUmVoluntario.setVisible(true);
 				dispose();		
 			}

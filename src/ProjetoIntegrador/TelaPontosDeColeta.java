@@ -149,7 +149,7 @@ public class TelaPontosDeColeta extends JFrame {
 
 				DefaultTableModel tableModel = new DefaultTableModel();				
 				JScrollPane scrollPane = new JScrollPane();
-				scrollPane.setBounds(25, 460, 700, 200);
+				scrollPane.setBounds(25, 460, 700, 220);
 				scrollPane.doLayout();
 
 				contentPane.add(scrollPane);
@@ -158,10 +158,10 @@ public class TelaPontosDeColeta extends JFrame {
 				scrollPane.setViewportView(table);
 				table.setModel(tableModel);
 				table.setEnabled(false);	
-				table.setFont(new Font("Arial", Font.PLAIN, 16));//tamanho da letra da tabela
+				table.setFont(new Font("Arial", Font.PLAIN, 14));//tamanho da letra da tabela
 				table.setVisible(true);		
 
-				table.getTableHeader().setFont(new Font("arial", Font.BOLD, 20));  //tamanho da letra do titulo
+				table.getTableHeader().setFont(new Font("arial", Font.BOLD, 17));  //tamanho da letra do titulo
 
 				try {
 
